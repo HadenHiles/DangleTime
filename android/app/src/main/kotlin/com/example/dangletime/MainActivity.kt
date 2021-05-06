@@ -1,4 +1,4 @@
-package com.example.dangletime
+package com.howtohockey.dangletime
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1056033618969",
+    "project_id": "dangle-time",
+    "storage_bucket": "dangle-time.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056033618969:android:cb06402aa196962e0ffe88",
+        "android_client_info": {
+          "package_name": "com.howtohockey.dangletime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056033618969-th8l799ftb29rsb3vce6rf8up1c5jed7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.howtohockey.dangletime",
+            "certificate_hash": "302f96c8c96a9b484e3cc810b786cfc7d0606e6a"
+          }
+        },
+        {
+          "client_id": "1056033618969-6vfcnd8j14g7cdo78tl04epvtcret0k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAflkdYZFv9amBC1xRUlWMtWZFv_41GL1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056033618969-6vfcnd8j14g7cdo78tl04epvtcret0k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

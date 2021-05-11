@@ -28,42 +28,12 @@ class _NavigationState extends State<Navigation> {
   static List<NavigationTab> _tabs = [
     NavigationTab(
       title: BasicTitle(title: "Dangle Time"),
-      actions: [
-        Container(
-          margin: EdgeInsets.only(top: 10),
-          child: IconButton(
-            icon: Icon(
-              Icons.home,
-              size: 28,
-            ),
-            onPressed: () {
-              navigatorKey.currentState.push(MaterialPageRoute(builder: (BuildContext context) {
-                return Home();
-              }));
-            },
-          ),
-        ),
-      ],
+      actions: [],
       body: Home(),
     ),
     NavigationTab(
       title: BasicTitle(title: "Friends"),
-      actions: [
-        Container(
-          margin: EdgeInsets.only(top: 10),
-          child: IconButton(
-            icon: Icon(
-              Icons.add,
-              size: 28,
-            ),
-            onPressed: () {
-              navigatorKey.currentState.push(MaterialPageRoute(builder: (BuildContext context) {
-                return Friends();
-              }));
-            },
-          ),
-        ),
-      ],
+      actions: [],
       body: Friends(),
     ),
     NavigationTab(
